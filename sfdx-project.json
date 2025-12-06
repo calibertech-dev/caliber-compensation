@@ -1,12 +1,24 @@
 {
   "packageDirectories": [
     {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "Caliber Compensation",
+      "versionDescription": "Adds compensation management features to Caliber Platform",
+      "dependencies": [
+        {
+          "package": "caliber-core"
+        }
+      ]
     }
   ],
   "name": "caliber-compensation",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "64.0"
+  "sourceApiVersion": "64.0",
+  "packageAliases": {
+    "caliber-compensation": "0Hoaj0000001DpdCAE"
+  }
 }
