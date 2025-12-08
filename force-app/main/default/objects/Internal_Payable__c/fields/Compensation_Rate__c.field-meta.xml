@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Compensation_Rate__c</fullName>
+    <description>Compensation rate used to calculate this payable, if applicable.</description>
+    <externalId>false</externalId>
+    <label>Compensation Rate</label>
+    <referenceTo>Compensation_Rate__c</referenceTo>
+    <relationshipLabel>Internal Payables</relationshipLabel>
+    <relationshipName>Compensation_Rate_Internal_Payables</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

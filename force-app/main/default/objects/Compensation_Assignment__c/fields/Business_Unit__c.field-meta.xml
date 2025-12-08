@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Unit__c</fullName>
+    <description>Auto-derived Business Unit from the Business Unit Affiliation.</description>
+    <label>Business Unit</label>
+    <formula>Business_Unit_Affiliation__r.Business_Unit__c</formula>
+    <type>Text</type>
+</CustomField>

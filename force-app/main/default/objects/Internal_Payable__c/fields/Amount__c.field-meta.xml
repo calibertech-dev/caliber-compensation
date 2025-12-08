@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Amount__c</fullName>
+    <description>Gross amount owed to the payee for this payable record.</description>
+    <externalId>false</externalId>
+    <label>Amount</label>
+    <precision>18</precision>
+    <scale>2</scale>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <type>Currency</type>
+</CustomField>

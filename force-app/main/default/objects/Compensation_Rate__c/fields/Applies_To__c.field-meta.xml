@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Applies_To__c</fullName>
+    <description>What type of records this plan is primarily intended to pay on.</description>
+    <externalId>false</externalId>
+    <label>Applies To</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+
+            <value>
+                <fullName>Sales_Order__c</fullName>
+                <default>false</default>
+                <label>Sales Order</label>
+            </value>
+            <value>
+                <fullName>Sales_Order_Line__c</fullName>
+                <default>false</default>
+                <label>Sales Order Line</label>
+            </value>
+            <value>
+                <fullName>WorkOrder</fullName>
+                <default>false</default>
+                <label>Work Order</label>
+            </value>
+            <value>
+                <fullName>WorkOrderLineItem</fullName>
+                <default>false</default>
+                <label>Work Order Line</label>
+            </value>
+            <value>
+                <fullName>Time_Entry__c</fullName>
+                <default>false</default>
+                <label>Time Entry</label>
+            </value>
+            <value>
+                <fullName>Project__c</fullName>
+                <default>false</default>
+                <label>Project</label>
+            </value>
+            <value>
+                <fullName>Project_Task__c</fullName>
+                <default>false</default>
+                <label>Project Task</label>
+            </value>
+            <value>
+                <fullName>Project_Billing_Line__c</fullName>
+                <default>false</default>
+                <label>Project Billing Line</label>
+            </value>
+
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

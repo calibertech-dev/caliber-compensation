@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rate_Value__c</fullName>
+    <description>
+        Numeric value used by the calculation method. For flat methods this is a currency amount
+        (per hour, per record, per unit). For percent methods this is a percentage (e.g. 20.00 = 20%).
+    </description>
+    <externalId>false</externalId>
+    <label>Rate Value</label>
+    <precision>18</precision>
+    <scale>2</scale>
+    <trackHistory>true</trackHistory>
+    <type>Number</type>
+</CustomField>

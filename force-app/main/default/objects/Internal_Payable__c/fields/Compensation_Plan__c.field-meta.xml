@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Compensation_Plan__c</fullName>
+    <description>Compensation Plan under which this internal payable was generated.</description>
+    <externalId>false</externalId>
+    <label>Compensation Plan</label>
+    <referenceTo>Compensation_Plan__c</referenceTo>
+    <relationshipLabel>Internal Payables</relationshipLabel>
+    <relationshipName>Compensation_Plan_Internal_Payables</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,7 @@
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>User__c</fullName>
+    <description>Auto-derived User from the Business Unit Affiliation.</description>
+    <label>User</label>
+    <type>Text</type>
+    <formula>Business_Unit_Affiliation__r.User__c</formula>
+</CustomField>

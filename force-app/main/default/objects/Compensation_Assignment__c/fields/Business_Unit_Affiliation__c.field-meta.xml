@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Unit_Affiliation__c</fullName>
+    <label>Business Unit Affiliation</label>
+    <referenceTo>Business_Unit_Affiliation__c</referenceTo>
+    <relationshipLabel>Compensation Assignments</relationshipLabel>
+    <relationshipName>BU_Affiliation_Compensation_Assignments</relationshipName>
+    <required>false</required>
+    <type>MasterDetail</type>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>
